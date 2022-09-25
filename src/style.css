@@ -1,1 +1,8 @@
-/* styles go here */
+.field-group {
+    margin: 20px 0;
+}
+
+.label_edit {
+display: block;
+margin: 10px 0;
+}
