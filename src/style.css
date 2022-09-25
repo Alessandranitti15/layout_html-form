@@ -1,8 +1,12 @@
-.field-group {
+.fieldGroup {
     margin: 20px 0;
 }
 
-.label_edit {
+.labelEdit {
 display: block;
 margin: 10px 0;
+}
+
+.labelEditNo {
+    margin-top: 10px;
 }

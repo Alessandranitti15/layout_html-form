@@ -12,23 +12,23 @@
 
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      <fieldset class="field-group">
+      <fieldset class="fieldGroup">
         <legend>Personal informations</legend>
-        <label class="label_edit">
+        <label class="labelEdit">
           Surname:
           <input
           type="text"
           name="surname"
           autocomplete="off">
         </label>
-        <label class="label_edit">
+        <label class="labelEdit">
           Name:
           <input
           type="text"
-          name="Name"
+          name="firstName"
           autocomplete="off">
         </label>
-        <label class="label_edit">
+        <label class="labelEdit">
           How old are You?
           <input
           type="number"
@@ -37,25 +37,25 @@
           min="1"
           max="100">
         </label>
-        <label class="label_edit">
+        <label class="labelEdit">
           Full date of birth:
-          <input type="date" name="date">
+          <input type="date" name="birthDate">
         </label>
-        <label class="label_edit">
+        <label class="labelEditNo">
           I accept the term of the agreement
           <input type="checkbox" name="terms">
         </label>
       </fieldset>
-      <fieldset class="field-group">
+      <fieldset class="fieldGroup">
         <legend>Registration</legend>
-        <label class="label_edit">
+        <label class="labelEdit">
           E-mail:
           <input
           type="email"
           name="email"
           placeholder="email@example.com" required>
         </label>
-        <label class="label_edit">
+        <label class="labelEditNo">
           Password:
           <input
           type="password"
@@ -63,7 +63,7 @@
           required>
         </label>
       </fieldset>
-      <fieldset class="field-group">
+      <fieldset class="fieldGroup">
         <legend>An interesting fact about you!</legend>
         <label>
           Do you love cats?
@@ -80,11 +80,11 @@
           value="no">
           No
         </label>
-        <label class="label_edit">
+        <label class="labelEdit">
           What is your favourite color?
           <input type="color" name="color">
         </label>
-        <label class="label_edit">
+        <label class="labelEdit">
           What time do you go to bed?
           <input type="time" name="bed_time">
         </label>
@@ -94,14 +94,14 @@
           <option value="audi">Audi</option>
           <option value="lada">Lada</option>
         </select>
-        <label class="label_edit">
+        <label class="labelEditNo">
           How do you rate out work?
           <input type="range" name="rating">
         </label>
       </fieldset>
-      <fieldset class="field-group">
+      <fieldset class="fieldGroup">
         <legend>Additional info:</legend>
-        <label class="label_edit">
+        <label class="labelEdit">
           Comments:
           <textarea
           name="comments"
@@ -112,7 +112,7 @@
           </textarea>
         </label>
         Would you recommend us?
-        <select name=" recommend">
+        <select name=" recommend" class="labelEditNo">
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
